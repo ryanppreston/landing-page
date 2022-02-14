@@ -15,7 +15,7 @@ a {
 
 .content {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,22 +37,23 @@ a {
 }
 
 #hero-banner {
-    margin-top: 50px;
+    margin-top: 100px;
     color: #e5e7eb;
     font-size: 18px;
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .hero-box {
     flex: 1;
-    margin: 10px;
+    margin-left: 25px;
 }
 
 .hero-box h3 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -68,10 +69,14 @@ a {
 }
 
 .image-placeholder {
-   background-color: gray;
+   background-color: #6c7580;
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+#info-section {
+    padding-bottom: 50px;
 }
 
 #info-section h3 {
@@ -92,8 +97,9 @@ a {
 }
 
 .info-box p {
-    color: gray;
+    color: #5e708a;
     text-align: center;
+    font-size: 18px;
 }
 
 .info-box-image {
@@ -106,8 +112,65 @@ a {
     margin: auto;
 }
 
+#quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 0px;
+}
 
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+    margin-bottom: 0px;
+} 
 
+.quote-byline {
+    color: #1f2937;
+    text-align: right;
+    margin-top: 0px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#cta-section {
+    padding: 80px 0px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cta-text {
+    flex: 2;
+    margin-left: 50px;
+}
+
+.cta-header {
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.cta-subtext {
+    margin-top: 0px;
+}
+
+.cta-button {
+    flex: 1;
+    margin-left: 75px;
+}
+
+.cta-button a {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
+
+}
 .footer {
     text-align: center;
 }
