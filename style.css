@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto';
+    color: #F9FAF8;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#header-links a {
+    margin-right: 10px;
+}
+
+.content {
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#hero-section, .footer {
+    background-color: #1f2937;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#hero-banner {
+    margin-top: 50px;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.hero-box {
+    flex: 1;
+    margin: 10px;
+}
+
+.hero-box h3 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+.hero-box p {
+    margin-top: 2px;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 7px 30px;
+    font-weight: 700;
+}
+
+.image-placeholder {
+   background-color: gray;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#info-section h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-box {
+    margin: 10px 20px;
+}
+
+.info-box p {
+    color: gray;
+    text-align: center;
+}
+
+.info-box-image {
+    height: 180px;
+    width: 180px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+
+
+.footer {
+    text-align: center;
+}
